@@ -5,3 +5,86 @@
 body {
   background: transparent url('./images/background.png') no-repeat;
 }
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  color: white;
+  font-size: 55px;
+}
+
+.subtitle {
+  color: white;
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+}
+
+.planet-name {
+  bottom: 14px;
+  color: white;
+  left: 17px;
+  position: relative;
+}
+
+.missions {
+  color: white;
+}
+
+.container-main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  border: 3px solid white;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  height: 75px;
+  justify-content: center;
+  width: 60%;
+}
+
+.container-planet {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  height: 200px;
+  justify-content: space-evenly;
+}
+
+.img-planet {
+  cursor: grab;
+  display: flex;
+  transition: all 0.5s;
+  width: 60%;
+}
+
+.img-planet:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(4);
+}
+
+.container-planet div {
+  width: 10%;
+}
+
+.container-mission {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+
+.mission-card {
+  border: 3px solid white;
+  padding: 10px;
+  width: 17%;
+}
+
