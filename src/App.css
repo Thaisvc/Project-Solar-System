@@ -67,8 +67,10 @@ body {
 }
 
 .img-planet:hover {
-  -webkit-transform: scale(1.5);
-  transform: scale(4);
+  -webkit-filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+  filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+  -webkit-transform: rotateZ(-360deg) scale(1.5);
+  transform: rotateZ(-360deg) scale(4);
 }
 
 .container-planet div {
