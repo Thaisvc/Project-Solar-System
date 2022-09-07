@@ -86,7 +86,11 @@ body {
 
 .mission-card {
   border: 3px solid white;
+  margin: 5px;
   padding: 10px;
   width: 17%;
 }
 
+.mission-card:hover {
+  border: 5px solid black;
+}
